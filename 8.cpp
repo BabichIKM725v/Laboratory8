@@ -11,7 +11,7 @@ int main()
 	double maxneg = -100000;
 	for (int i = 0; i < 15; i++) {
 
-		array[i] = (rand() % 1000 - 500) / 100.0;
+		array[i] = (rand() % 10000 - 5000) / 100.0;
 		cout << array[i] << " ";
 		if (array[i] < 0) {
 			if (array[i] > maxneg) {
